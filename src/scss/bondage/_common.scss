@@ -1,0 +1,318 @@
+.header.content {
+	min-height: 152px;
+	position: relative;
+}
+.sticky-header .header.content {
+	min-height: unset;
+}
+
+.header.content:before {
+	position: absolute;
+	background: url('https://s3-ap-southeast-2.amazonaws.com/bondageaustralia-digital-assets/BDSM_Header_00.png') center center no-repeat;
+	content: "";
+	display: block !important;
+	width: 478px;
+	height: 46px;
+	z-index: 1000;
+	top: 46px;
+	right: 36%;
+}
+
+
+.theme-pearl.store-view-default h1 {
+	letter-spacing: 1px;
+	line-height: 1.1;
+	margin-top: 15px;
+	color: #303030;
+	font-family: 'Questrial',sans-serif;
+	font-style: inherit;
+	font-weight: 900;
+
+}
+
+.sticky-header .header.content:before {
+	display: none !important;
+}
+
+
+
+.sticky-header .nav-sections-2.nav-sections-items {
+
+}
+
+
+:root .theme-pearl .page-wrapper .page-header.sticky-header:not(.page-header-v4) .sections.nav-sections {
+	left: 0 !important;
+}
+
+:root .page-header-v2 .page-header .header_right {
+	margin: 20px 0;
+}
+
+:root .page-header-v2.sticky-header .page-header .header_right {
+	margin: 0 0 30px 0;
+}
+
+:root .page-header-v2 .page-header.sticky-header .header_right {
+	margin: 20px 0 0 !important;
+}
+
+.section-items .nav-sections-item-content:last-child {
+	border-top: none !important;
+}
+
+.nav-sections-item-content {
+	border-top: 1px solid #383535;
+}
+
+
+
+.page-wrapper .page-header .header.links>li.authorization-link a:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart.active:before, 
+.page-wrapper .page-header .block-search .action.search:before,
+.page-wrapper .page-header .header.links .authorization-link a:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart:before,
+.search-visible-md .open-modal-search {
+	font-size: 35px !important;
+}
+
+.page-wrapper .page-header .header.links>li.authorization-link a:hover:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart:hover:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart.active:hover:before, 
+.page-wrapper .page-header .block-search .action.search:hover:before,
+.page-wrapper .page-header .header.links .authorization-link a:hover:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart:hover:before,
+.icon-search3:hover:before {
+	opacity: 1;
+	color: #B8001D !important;
+	cursor: pointer;
+}
+
+
+.page-wrapper .page-header .header.links .authorization-link a:before, 
+.page-wrapper .page-header .minicart-wrapper .action.showcart:before,
+.icon-search3:before {
+	color: #B8001D !important;
+	transition: all 0.1s ease-in-out;
+	opacity: .8;
+}
+
+
+.page-header .minicart-wrapper .action.showcart:before, 
+.page-header .minicart-wrapper .action.showcart.active:before,
+:root .page-header-v2 .page-header .header_right .header.links>li.authorization-link a:not([data-post]) {
+	width: 50px !important;
+	height: 50px !important;
+	line-height: 50px !important;
+}
+
+:root .page-header-v2 .page-header a.action.showcart {
+	margin-top: 1px;
+	width: 50px;
+	height: 50px;
+}
+
+
+.footer-v3 * {
+	color: #fff !important;
+}
+
+
+.theme-pearl .page-wrapper .page-footer .footer-v3 {
+	background-color: #000;
+	padding: 40px 0 !important;
+}
+
+/*Header*/
+
+:root .wp-device-xl .page-header-v2 .page-header .logo {
+	margin: 18px 30px 0 0 !important;
+	position: absolute;
+	left: 0;
+}
+
+
+:root .theme-pearl .page-wrapper .page-header .logo img {
+	width: 252px !important;
+	height: auto !important;
+}
+
+
+
+:root .theme-pearl .page-wrapper .page-header.sticky-header:not(.page-header-v4) .logo {
+	left: calc(50% - 126px) !important;
+	top: 30px !important;
+	margin: -20px 0 0 0 !important;
+}
+
+:root .theme-pearl .page-wrapper .page-header.sticky-header:not(.page-header-v4) .logo img {
+	width: 252px !important;
+	height: auto !important;
+}
+
+
+
+/*Mainpage*/
+.full_width_banner {
+	background-color: #000;
+	margin: 30px -30px;
+}
+
+.full_width_banner_left {
+	background-color: #000;
+    width: calc(100% + 30px);
+    margin: 30px -15px;
+}
+
+.full_width_banner_left img {
+	display: block;
+}
+
+
+.full_width_banner img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#maincontent {
+	position: relative;
+}
+
+#maincontent:before {
+	background: url('https://bondageaustralia-digital-assets.s3-ap-southeast-2.amazonaws.com/Bondage_AU_BG_01.gif') top center repeat-x;
+	background-size: 300px auto;
+	position: absolute;
+	content: "";
+	display: block;
+	height: 414px;
+	width: 100%;
+	left: 0;
+	top: -15px;
+	right: 0;
+	z-index: -1;
+}
+
+#maincontent:after {
+	position: absolute;
+	content: "";
+	display: block;
+	height: 250px;
+	width: 100%;
+	left: 0;
+	top: 149px;
+	right: 0;
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8491771708683473) 60%, rgba(255,255,255,1) 100%);
+	z-index: -1;
+}
+
+
+
+
+/*Footer*/
+.column4_wrap li a {
+		display: flex;	
+		flex-direction: row;
+		align-items: center;
+}
+
+.column4_wrap li {
+	margin-bottom: 7px !important;
+}
+
+.column4_wrap li a {
+	display: inline-block;
+}
+
+.column4_wrap li:hover a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.column4_wrap ul {
+	columns: 2;
+	column-gap: 50px;
+	height: 130px;
+}
+
+.column4_wrap ul img {
+	display: inline-block;
+	margin-bottom: -7px;
+}
+
+.payment__footer img {
+	margin-right: 20px;
+}
+
+.footer-v3 a:hover {
+	text-decoration: underline;
+}
+
+
+.minicart-wrapper:after {
+	content: "Cart";
+	display: block!important;
+	text-indent: 10px;
+	margin-top: 3px;
+	text-align: center;
+	color: white;
+	z-index: 5000000000;
+	position: absolute;
+	font: 400 normal 12px/1 sans-serif !important;
+}
+
+.authorization-link:after {
+	content: "Account";
+	text-indent: -9px;
+	display: block!important;
+	color: white;
+	z-index: 5000000000;
+	position: absolute;
+	font: 400 normal 12px/1 sans-serif !important;
+	text-align: left;
+}
+
+:root .page-header-v2 .page-header .block-search {
+	position: relative;
+	float: right;
+	 right: unset !important; 
+	 top: unset !important; 
+}
+
+#search_mini_form {
+	transform: translate(-40px, 35px);
+}
+
+.sticky-header #search_mini_form {
+	transform: translate(-40px, 20px);
+}
+
+
+/*Catalog page*/
+.catalog-category-view .category-view {
+    max-width: 1400px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+
+
+.custom-slider .title {
+	text-align: center;
+	font-weight: 700;
+}
+
+:root .theme-pearl.checkout-index-index .page-header.sticky-header .header.content .logo {
+	display: block;
+	position: relative;
+	margin: 0 auto!important;
+}
+
+:root .theme-pearl.checkout-index-index .page-wrapper .page-header.sticky-header:not(.page-header-v4) .logo {
+	 left: 0 !important; 
+	 top: 0 !important; 
+}
+
+
